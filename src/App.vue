@@ -1,28 +1,47 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+      <div  id="app">
+         <!-- <Calendar /> -->
+         <markdown />
+
+       
+       
+      </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
+// import Calendar from './components/Calendar.vue';
+import Markdown from './components/markdown.vue';
 export default {
-  name: 'App',
+
   components: {
-    HelloWorld
+    // Calendar,
+    Markdown
+  
   }
+  
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style scoped>
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+ 
+  #app{
+
+    padding-top: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
 </style>
