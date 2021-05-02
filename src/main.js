@@ -1,5 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
+import titleMixin from './utilities/mixins/titleMixin'
+
+Vue.mixin(titleMixin)
 
 Vue.config.productionTip = false
 

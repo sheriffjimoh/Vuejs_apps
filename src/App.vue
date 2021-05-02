@@ -1,7 +1,9 @@
 <template>
       <div  id="app">
          <!-- <Calendar /> -->
-         <markdown />
+         <!-- <markdown /> -->
+           <!-- <slider /> -->
+           <LoginModal />
 
        
        
@@ -11,14 +13,30 @@
 <script>
 
 // import Calendar from './components/Calendar.vue';
-import Markdown from './components/markdown.vue';
+// import Markdown from './components/markdown.vue';
+// import Slider from './components/Slider.vue';
+// import firebase from './utilities/firebase';
+import LoginModal from './components/LoginModal.vue';
 export default {
 
   components: {
     // Calendar,
-    Markdown
+    // Markdow,
+    // Slider
+    LoginModal,
+   
+   
+   },
+    data(){
+
+      return{
+      
+      }
+    },
   
-  }
+ 
+
+
   
 }
 </script>
@@ -34,7 +52,7 @@ export default {
  
   #app{
 
-    padding-top: 5rem;
+    /* padding-top: 5rem; */
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.4;
     display: flex;

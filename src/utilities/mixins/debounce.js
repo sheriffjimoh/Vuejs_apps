@@ -1,6 +1,6 @@
 export default {
     data(){
-     return{
+    npm return{
             timeout: "",
             }
      },
@@ -11,4 +11,4 @@ export default {
        },
     }
 
-}
+}-
